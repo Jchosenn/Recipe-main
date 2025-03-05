@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  background-color: hsl(30, 54%, 90%);
+  font-family: "Poppins", sans-serif;
+}
+/* .poppins-extralight {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+} */
+.card-holder {
+  margin: 60px auto;
+  padding: 30px;
+  width: 600px;
+  border-radius: 20px;
+  background-color: hsl(0, 0%, 100%);
+}
+.card-holder img {
+  width: 100%;
+  border-radius: 10px;
+}
+.container h1 {
+  font-size: 33px;
+  font-weight: 500;
+}
+p {
+  font-weight: 400;
+  font-size: 13px;
+}
+.prep {
+  margin-top: 20px;
+  background-color: hsl(330, 100%, 98%);
+  border-radius: 10px;
+  padding: 5px 30px;
+}
+.prep h2 {
+  color: hsl(332, 51%, 32%);
+  margin: 10px 0 0 0;
+  font-size: 16px;
+  font-weight: 500;
+}
+.prep ul {
+  padding: 0 20px;
+  font-size: 12px;
+  font-weight: 400;
+}
+li {
+  padding: 5px;
+}
+.prep li::marker {
+  color: hsl(332, 51%, 32%);
+}
+.components {
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+h2,
+h3 {
+  font-size: 20px;
+  color: hsl(14, 45%, 36%);
+}
+.components ul,
+ol {
+  padding: 0 15px;
+  font-size: 12px;
+  font-weight: 400;
+}
+.components li::marker {
+  font-weight: bold;
+  color: hsl(14, 45%, 36%);
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-size: 14px;
+}
+.grid div {
+  padding: 10px 20px;
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+.kg {
+  color: hsl(14, 45%, 36%);
+  font-weight: 600;
+}
+.grid .border {
+  border-bottom: none;
+}
+@media screen and (max-width: 568px) {
+  .card-holder {
+    margin: 0 auto;
+    padding: 0;
+    border-radius: 0;
+    width: 100%;
+  }
+  .card-holder img {
+    border-radius: 0;
+  }
+  .container {
+    padding: 10px 30px 20px 30px;
+  }
+  .container h1 {
+    font-size: 30px;
+  }
+}
